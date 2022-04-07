@@ -45,13 +45,23 @@ const Heading = () => {
           <h3 className='font-VT323 text-2xl z-20'>Let your stale NFTs generate revenue and RENT NFTs temporarily!</h3>
           <img className='mt-11 mb-10 z-10' src={headingImage} alt='LEND AND RENT NFTs'/>
           
-          {/* Launch Button */}
-          <a className='relative z-10' href={Links.launchDApp}>
-              <div className='launch-button-outer absolute'></div>
-              <div className='launch-button-inner absolute w-60 h-10 font-pressstart text-sm filter hover:brightness-95'>
-                  LAUNCH DAPP
-              </div>
-          </a>
+          <div className='launch-button-container'>
+              {/* Launch v1 */}
+              <a className='launch-button relative z-10' href={Links.launchDApp}>
+                  <div className='launch-button-outer absolute'></div>
+                  <div className='launch-button-inner absolute w-60 h-10 font-pressstart text-sm filter hover:brightness-95'>
+                      LAUNCH V1
+                  </div>
+              </a>
+
+              {/* Launch v2 */}
+              <a className='launch-button relative z-10' href={Links.launchDAppV2}>
+                  <div className='launch-button-outer absolute'></div>
+                  <div className='launch-button-inner absolute w-60 h-10 font-pressstart text-sm filter hover:brightness-95'>
+                      LAUNCH V2
+                  </div>
+              </a>
+          </div>
           
           {/* SignUp Input */}
           {!isSubmitted && (<div className='text-sm inline-flex justify-center flex-wrap mt-40 mb-72 font-pressstart z-10'>
