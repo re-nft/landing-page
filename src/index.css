@@ -115,6 +115,7 @@
     text-decoration: none;
     transition: all .2s;
     background-color: #FFB300;
+    text-align: center;
   }
   .launch-button-inner::before {
     position: absolute;
