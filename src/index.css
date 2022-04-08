@@ -102,12 +102,12 @@
     height: 60px;
     margin: 0 32px;
   }
-  .launch-button-outer{
+  .launch-button-outer {
     width: 248px;
     height: 48px;
     background-color: black;
-    margin-top: 1px;
-    margin-left: 9px;
+    margin-top: 4px;
+    margin-left: 4px;
   }
   .launch-button-inner { 
     display: inline-block; 
